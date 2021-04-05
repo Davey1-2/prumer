@@ -1,0 +1,82 @@
+
+#tabCon {
+    width: 30rem;
+    height: auto;
+    background-color: #6F2232;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#numTab {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+#adder {
+    background-color: #C3073F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin : 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+#calculate {
+    background-color: #C3073F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin : 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+}
+
+#container {
+    background-color: #950740;
+    width: 30rem;
+    height: auto;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1A1A1D;;
+}
+input[type=text], select {
+    width: 30%;
+    height: 2rem;
+    padding: 12px 5px;
+    margin: 12px 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+strong{
+    font-size: large;
+    font-family: "Microsoft JhengHei UI Light", sans-serif;
+    color: #cccccc;
+}
+
+#result{
+    width: 30rem;
+    height: 5rem;
+    background-color: #6F2232;
+}
+p{
+    font-size: small;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
